@@ -45,5 +45,20 @@ Arahkan lokasi direktori sesuai dengan direktorikerja project yang dibuat (**xam
 
 ![img](img/runcli.png)
 
-Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah : `php spark`
+Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah `php spark`
 
+![img](img/phpspark.png)
+
+## Mengaktifkan Mode Debugging
+Untuk mengaktifkan Mode Debugging bisa dengan mengetikan perintah ` php spark serve`
+
+![img](img/phpsparkserve.png)
+
+Untuk mengetahui pesan error apabila terjadi kesalahan dalam membuat kode program caranya degan mengubah kode filde pada **app/Controllers/home.php**, hapus tanda ; (titik koma) nya.
+![img](img/hapustitikkoma.png)
+
+Dan untuk melihat hasilnya ketik `https://localhost:8080` pada web browser.
+
+![img](img/pesanerror.png)
+
+Kemudian ubah nama file **env** menjadi **.env**. m
