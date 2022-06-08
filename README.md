@@ -88,3 +88,10 @@ Untuk mengetahui apakah route yang ditambahkan sudah benar, buka CLI dan jalanka
 
 Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat `http://localhost:8080/about`
 
+![img](img/routesabout.png)
+
+## Membuat Controller
+Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama **page.php** pada direktori Controller kemudian isi dengan kode berikut
+
+![img](img/controllerpagephp.png)
+
