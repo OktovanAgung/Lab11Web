@@ -9,7 +9,7 @@
 
 # Langkah - Langkah Praktikum
 
-## Buat folder baru dengan nama **lab11_php_ci** pada docroot webserver (**htdocs**)
+## Buat folder baru dengan nama **lab11_ci** pada docroot webserver (**htdocs**)
 
 ## Persiapan 
 Sebelum memulai menggunakan Framework Codeigniter, perlu dilakukan konfigurasi pada web server. Beberapa ekstensi PHP perlu diaktifkan untuk kebutuhan pengembangan Codeigniter 4.
@@ -33,6 +33,9 @@ Pada bagian extension, hilangkan tanda **;** (titik koma) pada ekstesi yang akan
 Untuk melakukak instalasi Codigniter 4 dapat dilakukan dengan dua cara, yaitu cara manual dan menggunakan *composer*. Pada praktikum ini saya menggunakan cara manual.
 
 - Unduk **Codeigniter** dari website `https://codeigniter.com/download`
-- ekstrak file zip Codeigniter ke direktori **htdocs/lab11_php_ci**.
+- ekstrak file zip Codeigniter ke direktori **htdocs/lab11_ci**.
 - Ubah nama direktori **framework-4x.xx** menjadi **ci4**.
 - Buka browser dengan alamat `http://localhost/lab11_ci/ci4/public/`
+
+![img](img/instalasicodeigniter.png)
+
