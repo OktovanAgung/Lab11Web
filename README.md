@@ -124,3 +124,18 @@ Kemudian refresh halaman tersebut untuk melihat hasilnya.
 Buat file css direktori **public** dengan nama **style.css** saya akan gunakan layout yang pernah dibuat pada praktikum 4 (copy file dari praktikum lab4_layout).
 
 ![img](img/publiccss.png)
+
+Kemudian buat folder template pada direktori view kemudian buat file **header.php** & **footer.php** pada folder tersebut.
+
+- header.php
+![img](img/headerphp.png)
+
+- footer.php
+![img](img/footerphp.png)
+
+Kemudian ubah file **about.php** seperti berikut
+![img](img/aboutphp.png)
+
+Selanjutnya refresh halaman `http://localhost:8080/about`
+
+![img](img/viewaboutnew.png)
