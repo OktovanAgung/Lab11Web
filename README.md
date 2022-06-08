@@ -85,3 +85,6 @@ $routes->get('/faqs', 'Page::faqs');
 Untuk mengetahui apakah route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut `php spark routes`
 
 ![img](img/phpsparkroutes.png)
+
+Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat `http://localhost:8080/about`
+
