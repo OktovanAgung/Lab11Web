@@ -102,3 +102,4 @@ Auto Routing Secara default fitur autoroute pada Codeiginiter sudah aktif. Untuk
 ![img](img/autoroutetrue.png)
 
 Tambahkan methode baru pada Controller Page seperti berikut
+![img](img/controllerpagephp2.png)
