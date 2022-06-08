@@ -139,3 +139,25 @@ Kemudian ubah file **about.php** seperti berikut
 Selanjutnya refresh halaman `http://localhost:8080/about`
 
 ![img](img/viewaboutnew.png)
+
+# Pertanyaan & Tugas
+
+## Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
+
+# Jawaban
+
+- Ubah isi pada **Routes.php** menjadi seperti berikut.
+
+![img](img/jawabanroutes.png)
+
+- Ubah isi pada **page.php** menjadi seperti berikut
+
+![img](img/jawabanpage.png)
+
+- Pada folder views buat ile baru dengan nama ;**home.php, about.php, artikel.php, contact.php, faqs.php,** dan **tos.php**. Pada masing - masing file tersebut masukan kode berikut
+
+![img](img/jawabanisi6filebaru.png)
+
+- Untuk melihat hasilnya bisa dengan mengakses alamat berikut `http://localhost:8080/contact`
+
+![img](img/jawabanhasil.png)
