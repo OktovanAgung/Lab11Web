@@ -25,3 +25,7 @@ Untuk mengaktifkan ekstensi tersebut, melalui **XAMPP Control Panel**, pada bagi
 
 ![img](img/ekstensixampp.png)
 
+Pada bagian extension, hilangkan tanda **;** (titik koma) pada ekstesi yang akan diaktikan. Kemudian simpan kemali filenya dan restart Apache webserver.
+
+![img](img/aktifasiekstensi.png)
+
