@@ -120,3 +120,7 @@ Kemudian refresh halaman tersebut untuk melihat hasilnya.
 
 ![img](img/viewabout.png)
 
+## Membuat Layout Web Dengan CSS
+Buat file css direktori **public** dengan nama **style.css** saya akan gunakan layout yang pernah dibuat pada praktikum 4 (copy file dari praktikum lab4_layout).
+
+![img](img/publiccss.png)
