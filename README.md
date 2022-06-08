@@ -39,3 +39,11 @@ Untuk melakukak instalasi Codigniter 4 dapat dilakukan dengan dua cara, yaitu ca
 
 ![img](img/instalasicodeigniter.png)
 
+## Menjalankan CLI (*Command Libe INterface*)
+Codeigniter 4 menyediakan CLI untuk mempermudah proses development. Untuk mengakses CLI buka terminal / command promt.
+Arahkan lokasi direktori sesuai dengan direktorikerja project yang dibuat (**xampp/htdocs/lab11_ci/ci4/**)
+
+![img](img/runcli.png)
+
+Perintah yang dapat dijalankan untuk memanggil CLI Codeigniter adalah : `php spark`
+
