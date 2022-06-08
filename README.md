@@ -92,6 +92,13 @@ Selanjutnya coba akses route yang telah dibuat dengan mengakses alamat `http://l
 
 ## Membuat Controller
 Selanjutnya adalah membuat Controller Page. Buat file baru dengan nama **page.php** pada direktori Controller kemudian isi dengan kode berikut
-
 ![img](img/controllerpagephp.png)
+Kemudian simpan.
+Selanjutnya refresh kembali halaman web browser, maka akanmenampilkan hasil seperti berikut.
+![img](img/controllerabout.png)
 
+Auto Routing Secara default fitur autoroute pada Codeiginiter sudah aktif. Untuk mengubah status autoroute dapat mengubah nilai variabelnya. Untuk menonaktifkan ubah nilai **true** menjadi **false**.
+`$routes->setAutoRoute(true);`
+![img](img/autoroutetrue.png)
+
+Tambahkan methode baru pada Controller Page seperti berikut
