@@ -107,3 +107,16 @@ Tambahkan methode baru pada Controller Page seperti berikut
 Methode ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan url berikut `http://localhost:8080/page/tos`
 ![img](img/controllertos.png)
 
+## Membuat View
+Selanjutnya adalah membuat view untuk tampilan web agar lebih menarik. Buat file baru dengan nama **about.php** pada direktori view (**app/view/**) kemudian masukan kode berikut.
+
+![img](img/view.png)
+
+Ubah **methode about** pada **Controller Page** menjadi seperti berikut.
+
+![img](img/controllerpagephp3.png)
+
+Kemudian refresh halaman tersebut untuk melihat hasilnya.
+
+![img](img/viewabout.png)
+
