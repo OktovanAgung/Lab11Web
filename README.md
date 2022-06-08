@@ -29,3 +29,10 @@ Pada bagian extension, hilangkan tanda **;** (titik koma) pada ekstesi yang akan
 
 ![img](img/aktifasiekstensi.png)
 
+## Instalasi Codeigniter 4
+Untuk melakukak instalasi Codigniter 4 dapat dilakukan dengan dua cara, yaitu cara manual dan menggunakan *composer*. Pada praktikum ini saya menggunakan cara manual.
+
+- Unduk **Codeigniter** dari website `https://codeigniter.com/download`
+- ekstrak file zip Codeigniter ke direktori **htdocs/lab11_php_ci**.
+- Ubah nama direktori **framework-4x.xx** menjadi **ci4**.
+- Buka browser dengan alamat `http://localhost/lab11_ci/ci4/public/`
