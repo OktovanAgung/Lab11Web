@@ -20,3 +20,8 @@ Berikut beberapa ekstensi yang perlu diaktifkan :
 - **php-xml** ekstensi untuk bekerja dengan XML;
 - **php-intl** ekstensi untuk membuat aplikasi multibahasa;
 - **libcurl** (opsional), jika ingin pakai Curl.
+
+Untuk mengaktifkan ekstensi tersebut, melalui **XAMPP Control Panel**, pada bagian Apache klik **Config** > **PHP.ini**
+
+![img](img/ekstensixampp.png)
+
