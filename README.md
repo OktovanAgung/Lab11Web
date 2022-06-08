@@ -103,3 +103,7 @@ Auto Routing Secara default fitur autoroute pada Codeiginiter sudah aktif. Untuk
 
 Tambahkan methode baru pada Controller Page seperti berikut
 ![img](img/controllerpagephp2.png)
+
+Methode ini belum ada pada routing, sehingga cara mengaksesnya dengan menggunakan url berikut `http://localhost:8080/page/tos`
+![img](img/controllertos.png)
+
