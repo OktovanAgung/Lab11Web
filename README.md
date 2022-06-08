@@ -65,3 +65,23 @@ Kemudian ubah nama file **env** menjadi **.env**, kemudian buka file tersebut, d
 ![img](img/hapus%23.png)
 
 Dan refresh url sebelumnya untuk melihat perubahan.
+![img](img/keteranganpesanerror.png)
+
+## Struktur Direktori
+![img](img/strukturdirektori.png)
+
+## Routing & Controller
+Router terletak pada **app/config/Routes.php**
+
+## Membuat Route Baru
+Tabahkan kode berikut pada **Routes.php**
+```php
+$routes->get('/about', 'Page::about');
+$routes->get('/contact', 'Page::contact');
+$routes->get('/faqs', 'Page::faqs');
+```
+![img](img/routesbaru.png)
+
+Untuk mengetahui apakah route yang ditambahkan sudah benar, buka CLI dan jalankan perintah berikut `php spark routes`
+
+![img](img/phpsparkroutes.png)
