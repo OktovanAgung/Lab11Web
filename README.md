@@ -61,4 +61,7 @@ Dan untuk melihat hasilnya ketik `https://localhost:8080` pada web browser.
 
 ![img](img/pesanerror.png)
 
-Kemudian ubah nama file **env** menjadi **.env**. m
+Kemudian ubah nama file **env** menjadi **.env**, kemudian buka file tersebut, dan hapus tanda **#** pada **CI_ENVIRONMENT =**, dan ubah variavle menjadi **development**
+![img](img/hapus%23.png)
+
+Dan refresh url sebelumnya untuk melihat perubahan.
