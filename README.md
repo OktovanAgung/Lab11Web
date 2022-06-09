@@ -4,6 +4,10 @@
 |Kelas  |: TI.20.A.1              |
 
 ---
+Daftar Isi :
+- [Praktikum 11 PHP Framework (Codeigniter)](#Praktikum-11-PHP-Framework-(Codeigniter))
+- [Praktikum 12 Framework Lanjutan (CRUD)](#Praktikum-12-Framework-Lanjutan-(CRUD))
+---
 
 # Praktikum 11 PHP Framework (Codeigniter)
 
@@ -161,3 +165,8 @@ Selanjutnya refresh halaman `http://localhost:8080/about`
 - Untuk melihat hasilnya bisa dengan mengakses alamat berikut `http://localhost:8080/contact`
 
 ![img](img/jawabanhasil.png)
+
+---
+---
+
+# Praktikum 12 Framework Lanjutan (CRUD)
