@@ -11,7 +11,7 @@ Daftar Isi :
 
 # Praktikum 11 PHP Framework (Codeigniter)
 
-# Langkah - Langkah Praktikum
+## Langkah - Langkah Praktikum :
 
 ## Buat folder baru dengan nama **lab11_ci** pada docroot webserver (**htdocs**)
 
@@ -171,7 +171,7 @@ Selanjutnya refresh halaman `http://localhost:8080/about`
 
 # Praktikum 12 Framework Lanjutan (CRUD)
 
-# Langkah - Langkah Praktikum
+## Langkah - Langkah Praktikum :
 
 ## Persiapan
 Untuk Memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP Control Panel.
