@@ -176,5 +176,20 @@ Selanjutnya refresh halaman `http://localhost:8080/about`
 ## Persiapan
 Untuk Memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP Control Panel.
 
-## membuat Database 
-`CREATE DATABASE lab_ci4;`
+## Membuat Database 
+```CREATE DATABASE lab_ci4;```
+![img](img/createdatabase.png)
+
+## Membuat Tabel
+```
+CREATE TABLE artikel ( 
+  id INT(11) auto_increment, 
+  judul VARCHAR(200) NOT NULL, 
+  isi TEXT, 
+  gambar VARCHAR(200), 
+  status TINYINT(1) DEFAULT 0, 
+  slug VARCHAR(200), 
+  PRIMARY KEY(id)
+);
+```
+![img](img/createtable.png)
