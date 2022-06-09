@@ -230,3 +230,12 @@ Dan refresh kembali browser untuk melihat perubahannya.
 
 ![img](img/insertartikel.png)
 
+## Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik akan darakhan ke halman yang berbeda. Tambahkan fungsi baru pada **Controller Artikel** dengan nama **view()**.
+
+![img](img/artikeldetile.png)
+
+## Membuat View Detile
+Buat view baru dengan halaman detail dengan nama **app/views/artikel/detail.php**.
+
+![img](img/detailphp.png)
