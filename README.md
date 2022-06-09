@@ -177,7 +177,9 @@ Selanjutnya refresh halaman `http://localhost:8080/about`
 Untuk Memulai membuat aplikasi CRUD sederhana, yang perlu disiapkan adalah database server menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP Control Panel.
 
 ## Membuat Database 
-```CREATE DATABASE lab_ci4;```
+```
+CREATE DATABASE lab_ci4;
+```
 ![img](img/createdatabase.png)
 
 ## Membuat Tabel
@@ -193,3 +195,9 @@ CREATE TABLE artikel (
 );
 ```
 ![img](img/createtable.png)
+
+## konfigurasi Koneksi Database
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan du acara, yaitu pada file **app/config/database.php** atau menggunakan file **.env**. Pada praktikum ini kita gunakan konfigurasi pada file **.env**.
+
+![img](img/konfigdatabase.png)
+
