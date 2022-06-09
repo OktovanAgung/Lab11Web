@@ -210,3 +210,7 @@ Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pa
 Buat Controller baru dengan nama **Artikel.php** pada direktori **app/Controllers**
 
 ![img](img/artikelphp.png)
+
+## Membuat View
+Buat direktori baru dengan nama **artikel** pada direktori **app/view**, kemudian buat file baru dengan nama **index.php**.
+
