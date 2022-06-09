@@ -231,7 +231,7 @@ Dan refresh kembali browser untuk melihat perubahannya.
 ![img](img/insertartikel.png)
 
 ## Membuat Tampilan Detail Artikel
-Tampilan pada saat judul berita di klik akan darakhan ke halman yang berbeda. Tambahkan fungsi baru pada **Controller Artikel** dengan nama **view()**.
+Tampilan pada saat judul berita di klik akan darakhan ke halman yang berbeda. Tambahkan fungsi baru pada **Controller/Artikel** dengan nama **view()**.
 
 ![img](img/artikeldetile.png)
 
@@ -239,3 +239,10 @@ Tampilan pada saat judul berita di klik akan darakhan ke halman yang berbeda. Ta
 Buat view baru dengan halaman detail dengan nama **app/views/artikel/detail.php**.
 
 ![img](img/detailphp.png)
+
+## Membuat Routing Untuk Artikel Detail
+Buka kembali file **app/config/Routes.php**, kemudian tambahkan routing untuk artikel detail.
+
+![img](img/routesartikel.png)
+
+Kemudian refresh kembali browser untuk melihat perubahannya.
