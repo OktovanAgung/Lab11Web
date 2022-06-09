@@ -5,8 +5,8 @@
 
 ---
 Daftar Isi :
-- [Praktikum 11 PHP Framework (Codeigniter)](#Praktikum-11-PHP-Framework-(Codeigniter))
-- [Praktikum 12 Framework Lanjutan (CRUD)](#Praktikum-12-Framework-Lanjutan-(CRUD))
+- [Praktikum 11 PHP Framework (Codeigniter)](#praktikum-11-php-framework-codeigniter)
+- [Praktikum 12 Framework Lanjutan (CRUD)](#praktikum-12-framework-lanjutan-crud)
 ---
 
 # Praktikum 11 PHP Framework (Codeigniter)
