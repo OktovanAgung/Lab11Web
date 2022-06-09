@@ -201,3 +201,10 @@ Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konf
 
 ![img](img/konfigdatabase.png)
 
+## Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori **app/Models** dengan nama **ArtikelModel.php**
+
+![img](img/artikelmodelphp.png)
+
+## Buat Controller
+Buat Controller baru dengan nama **Artikel.php** pada direktori **app/Controllers**
