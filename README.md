@@ -231,7 +231,7 @@ Dan refresh kembali browser untuk melihat perubahannya.
 ![img](img/insertartikel.png)
 
 ## Membuat Tampilan Detail Artikel
-Tampilan pada saat judul berita di klik akan darakhan ke halman yang berbeda. Tambahkan fungsi baru pada **Controller/Artikel** dengan nama **view()**.
+Tampilan pada saat judul berita di klik akan darakhan ke halman yang berbeda. Tambahkan fungsi baru pada **Controller Artikel** dengan nama **view()**.
 
 ![img](img/artikeldetile.png)
 
@@ -245,4 +245,17 @@ Buka kembali file **app/config/Routes.php**, kemudian tambahkan routing untuk ar
 
 ![img](img/routesartikel.png)
 
-Kemudian refresh kembali browser untuk melihat perubahannya.
+## Membuat Menu Admin
+Menu admin adalah untuk proses CRUD data artikel. Buat methode baru pada **Controller Artikel** dengan nama **admin_index()**.
+
+![img](img/adminmethode.png)
+
+Selanjutnya buat view untuk tampilan admin dengan nama **admin_index.php**
+
+![img](img/adminindex.png)
+
+Kemudian tambahkan routing untuk menu admin seperti berikut :
+
+![img](img/adminroutes.png)
+
+Akses menu admin dengan menggunakan url `http://localhost:8080/admin/artikel`
