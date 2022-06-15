@@ -330,3 +330,13 @@ Selanjutnya membuat Model untuk memproses data Login. Buat file baru pada direkt
 
 ![img](img/usermodelphp.png)
 
+## Membuat COntroller User
+Membuat Controller baru dengan nama **User.php** pada direktori **app/Controllers**. Kemudian tambahkan methode **index()**untuk menampilkan daftar user, dan methode **login()** untuk proses login.
+
+![img](img/userphp.png)
+
+## Membuat View Login
+Buat direktri baru dengan nama **user** pada direktori **app/views**, kemudian buat file baru dengan nama **login.php**
+
+![img](img/loginphp.png)
+
