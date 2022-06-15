@@ -340,3 +340,9 @@ Buat direktri baru dengan nama **user** pada direktori **app/views**, kemudian b
 
 ![img](img/loginphp.png)
 
+## Membuat Database Seeder
+Database seeder digunakan untuk membuat data dummy. Untuk keperluan ujicoba modul login, kita perlu memasukan data user dan password kedalam database. Untuk itu buat database seeder untuk tabel user. Buka CLI, kemudain tulis perintah berikut :
+```
+php spark make:seeder UserSeeder
+```
+
