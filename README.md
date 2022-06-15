@@ -230,3 +230,8 @@ Refresh kembali browser, sehingga akan ditampilkan hasilnya.
 
 ![img](img/tampilanartikel2.png)
 
+## Membuat Tampilan Detail Artikel
+Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berbeda. Tambahkan fungsi baru pada **Controller Artikel** dengan nama **view()**.
+
+![img](img/controllerview.png)
+
