@@ -274,6 +274,19 @@ Kemudian buat view untuk form tambahan dengan nama **form_add.php**.
 
 ![img](img/formadd.png)
 
-Untuk mengakses menu admin bisa dengan menggunakan url `http://localhost:8080/admin/artikel/add`
+Untuk mengakses menu add bisa dengan menggunakan url `http://localhost:8080/admin/artikel/add`
 
 ![img](img/tampilanadd.png)
+
+## Mengubah Data
+Tambahkan fungsi/methode baru pada **Controller/Admin** dengan nama **edit()**.
+
+![img](img/controlleredit.png)
+
+Untuk mengakses menu add bisa dengan menggunakan url `http://localhost:8080/admin/artikel/edit/...(nama artikel yang ingin di edit)`
+
+![img](img/tampilanedit.png)
+
+Tampilan Setelah Di Edit
+
+![img](img/setelahedit.png)
