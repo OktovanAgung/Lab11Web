@@ -235,3 +235,16 @@ Tampilan pada saat judul berita di klik maka akan diarahkan ke halaman yang berb
 
 ![img](img/controllerview.png)
 
+## Membuat View Detail
+Buat view baru untuk halaman detail dengan nama **app/view/artikel/detail.php**
+
+![img](img/viewdetail.png)
+
+## Membuat Routing Untuk Artikel Detail
+Buka kembali file **app/config/Routes.php**, kemudian tambahkan routing untuk artikel detail.
+
+![img](img/routesdetail.png)
+
+Untuk melihat hasilnya bisa dengan mengklik salah satu artikelnya.
+
+![img](img/artikeldetail.png)
