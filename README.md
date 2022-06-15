@@ -265,3 +265,15 @@ Untuk mengakses menu admin bisa dengan menggunakan url `http://localhost:8080/ad
 
 ![img](img/tampilanadmin.png)
 
+## Menambahkan Data Artikel
+Tambahkan fungsi/methode baru pada **Controller/Artikel** dengan nama **add()**.
+
+![img](img/controlleradd.png)
+
+Kemudian buat view untuk form tambahan dengan nama **form_add.php**.
+
+![img](img/formadd.png)
+
+Untuk mengakses menu admin bisa dengan menggunakan url `http://localhost:8080/admin/artikel/add`
+
+![img](img/tampilanadd.png)
