@@ -193,3 +193,8 @@ CREATE TABLE artikel (
   PRIMARY KEY(id)
 );
 ```
+
+## Konfigurasi Koneksi Database
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env.
+
+![img](img/koneksidatabase.png)
