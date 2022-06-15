@@ -195,6 +195,24 @@ CREATE TABLE artikel (
 ```
 
 ## Konfigurasi Koneksi Database
-Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan du acara, yaitu pada file app/config/database.php atau menggunakan file .env. Pada praktikum ini kita gunakan konfigurasi pada file .env.
+Selanjutnya membuat konfigurasi untuk menghubungkan dengan database server. Konfigurasi dapat dilakukan dengan dua acara, yaitu pada file **app/config/database.php** atau menggunakan file **.env**. Pada praktikum ini kita gunakan konfigurasi pada file **.env**.
 
 ![img](img/koneksidatabase.png)
+
+
+## Membuat Model
+Selanjutnya adalah membuat Model untuk memproses data Artikel. Buat file baru pada direktori **app/Models** dengan nama **ArtikelModel.php**.
+
+![img](img/modelartikel.png)
+
+## Membuat Controller
+Buat Controllers baru dengan nama **Artikel.php** pada direktori **app/Controllers**.
+
+![img](img/controllerartikel.png)
+
+## membuat View
+Buat direktori baru dengan nama **artikel** pada direktori **app/view**, kemudian buat file baru dengan nama **index.php**.
+
+![img](img/viewartikel.png)
+
+Selanjutnya buka browser kembali, dengan mengakses url `http://localhost:8080/artikel`
