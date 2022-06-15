@@ -325,3 +325,8 @@ CREATE TABLE user (
 );
 ```
 
+## Membuat Model User
+Selanjutnya membuat Model untuk memproses data Login. Buat file baru pada direktori **app/Models** dengan nama **UserModel.php**
+
+![img](img/usermodelphp.png)
+
