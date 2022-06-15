@@ -287,6 +287,19 @@ Untuk mengakses menu add bisa dengan menggunakan url `http://localhost:8080/admi
 
 ![img](img/tampilanedit.png)
 
-Tampilan Setelah Di Edit
+Tampilan Setelah Di Edit.
 
 ![img](img/setelahedit.png)
+
+## Menghapus Data
+Tambahkan fungsi/methode baru pada **Controller/Artikel** dengan nama **delet()**.
+
+![img](img/formdelet.png)
+
+Untuk menghapus suatu artikel dapat melalui menu artikel kemudain pilih artikel yang ingin di hapus dengan mengklik tombol **Hapus**.
+
+![img](img/tampilanhapus.png)
+
+Tampilan Setelah Di Hapus.
+
+![img](img/setelahhapus.png)
