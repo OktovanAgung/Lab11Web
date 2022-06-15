@@ -314,3 +314,14 @@ Tampilan Setelah Di Hapus.
 ## Persiapan
 Untuk mmemulai membuat Modul Login, yang perlu disiapkan adalah database serber menggunakan MySQL. Pastikan MySQL Server sudah dapat dijalankan melalui XAMPP
 
+## Membuat Tabel user Login
+```
+CREATE TABLE user (
+  id INT(11) auto_increment,
+  username VARCHAR(200) NOT NULL,
+  useremail VARCHAR(200),
+  userpassword VARCHAR(200),
+  PRIMARY KEY(id) 
+);
+```
+
