@@ -248,3 +248,20 @@ Buka kembali file **app/config/Routes.php**, kemudian tambahkan routing untuk ar
 Untuk melihat hasilnya bisa dengan mengklik salah satu artikelnya.
 
 ![img](img/artikeldetail.png)
+
+## Membuat Menu Admin
+Menu admin adalah untuk proses CRUD data artikel. Buat method baru pada **Controller/Artikel** dengan nama **admin_index()**.
+
+![img](img/controlleradmin.png)
+
+Selanjutnya buat view untuk tampilan admin pada **Views/artikel** dengan nama **admin_index.php**
+
+![img](img/adminindex.png)
+
+Tambahkan routing untuk menu admin seperti berikut :
+![img](img/routesadmin.png)
+
+Untuk mengakses menu admin bisa dengan menggunakan url `http://localhost:8080/admin/artikel`
+
+![img](img/tampilanadmin.png)
+
