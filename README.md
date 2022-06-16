@@ -374,3 +374,14 @@ Selanjutnya buka file **app/Config/Filters.php** tambahkan kode berikut :
 Selanjutnya buka file **app/Config/Routes.php** dan sesuaikan kodenya.
 
 ![img](img/configroutes.png)
+
+## Percobaan Akses Menu Admin
+Buka url berikut `http://localhost:8080/admin/artikel` ketika alamat tersebut diakses maka akan dimunculkan halaman login.
+
+![img]
+
+## Fungsi Logout
+Tambahkan methode logout pada **Controller/User** seperti berikut :
+
+![img](img/controllerlogout.png)
+
