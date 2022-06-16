@@ -350,3 +350,12 @@ php spark make:seeder UserSeeder
 Selanjutnya, buka file **UserSeeder.php** yang berada di lokasi direktori **/app/Database/Seeds/UserSeeder.php** kemudian isi dengan kode berikut :
 
 ![img](img/userseeder.png)
+
+Selanjutnya buka kembali CLI dan ketik peritah berikut
+```
+php spark db:seed UserSeeder
+```
+
+## Uji Coba Login
+Selanjutnya untuk ujicoba login dengan memasukan url berikut `http://localhost:8080/user/login`
+
