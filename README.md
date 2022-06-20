@@ -387,3 +387,11 @@ Setelah masuk maka akan langsung di arahkan ke halaman admin
 
 ![img](img/loginberhasil.png)
 
+## Menambahkan Fungsi Logout
+Tambahkan methode logout pada **Controllers/User** seperti berikut :
+
+![img](img/fungsilogout.png)
+
+Untuk logout bisa langsung mengklik tombol logout pada menu admin.
+
+![img](img/teslogout.png)
