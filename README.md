@@ -159,7 +159,7 @@ Selanjutnya refresh halaman `http://localhost:8080/about`
 
 ![img](img/jawabanpage.png)
 
-- Pada folder views buat ile baru dengan nama ;**home.php, about.php, artikel.php, contact.php, faqs.php,** dan **tos.php**. Pada masing - masing file tersebut masukan kode berikut
+- Pada folder views buat ile baru dengan nama ; **home.php**, **about.php**, **artikel.php**, **contact.php**, **faqs.php**, dan **tos.php**. Pada masing - masing file tersebut masukan kode berikut
 
 ![img](img/jawabanisi6filebaru.png)
 
@@ -211,7 +211,7 @@ Buat Controllers baru dengan nama **Artikel.php** pada direktori **app/Controlle
 
 ![img](img/controllerartikel.png)
 
-## membuat View
+## Membuat View
 Buat direktori baru dengan nama **artikel** pada direktori **app/view**, kemudian buat file baru dengan nama **index.php**.
 
 ![img](img/viewartikel.png)
@@ -332,7 +332,7 @@ Selanjutnya membuat Model untuk memproses data Login. Buat file baru pada direkt
 ![img](img/usermodelphp.png)
 
 ## Membuat COntroller User
-Membuat Controller baru dengan nama **User.php** pada direktori **app/Controllers**. Kemudian tambahkan methode **index()**untuk menampilkan daftar user, dan methode **login()** untuk proses login.
+Membuat Controller baru dengan nama **User.php** pada direktori **app/Controllers**. Kemudian tambahkan methode **index()** untuk menampilkan daftar user, dan methode **login()** untuk proses login.
 
 ![img](img/userphp.png)
 
