@@ -357,3 +357,7 @@ Selanjutnya buka kembali CLI dan ketik peritah berikut
 php spark db:seed UserSeeder
 ```
 
+Kemudian buka kembali file `.env` kemudian hapus tanda pagar `#` pada bagian `app.session....`
+
+![img](img/appsession.png)
+
