@@ -370,3 +370,20 @@ Kemudian buka file **app/Config/Filters/php** dan ubah seperti berikut :
 
 ![img](img/configfilters.png)
 
+## Percobaan Akses Menu Admin
+Buka url dengan alamat `http://localhost:8080/admin/artikel` ketika alamat admin diakses maka, akan dialihkan ke halaman login terlebih dahulu. Atau bisa juga melalui tombol login pada bagian menu pada artikel.
+
+- Melalui alamat admin.
+![img](img/tescara1.png)
+
+- Melalui tombol login admin.
+![img](img/tescara2.png)
+
+Untuk login bisa dengan memasukan :
+Email : admin@email.com
+Password : admin123
+
+Setelah masuk maka akan langsung di arahkan ke halaman admin 
+
+![img](img/loginberhasil.png)
+
