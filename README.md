@@ -7,6 +7,7 @@
 Daftar Isi :
 - [Praktikum 11 PHP Framework (Codeigniter)](#praktikum-11-php-framework-codeigniter)
 - [Praktikum 12 Framework Lanjutan (CRUD)](#praktikum-12-framework-lanjutan-crud)
+- [Praktikum 13 Framework Lanjutan (Modul Login)](#praktikum-13-framework-lanjutan-modul-login)
 ---
 
 # Praktikum 11 PHP Framework (Codeigniter)
@@ -355,33 +356,4 @@ Selanjutnya buka kembali CLI dan ketik peritah berikut
 ```
 php spark db:seed UserSeeder
 ```
-
-## Uji Coba Login
-Selanjutnya untuk ujicoba login dengan memasukan url berikut `http://localhost:8080/user/login`
-
-![img](img/tampilanlogin.png)
-
-## Menambahkan Auth Filter
-Selanjutnya membuat filter untuk halaman admin. Buat file baru dengan nama **Auth.php** pada direktori **app/Filters**.
-
-![img](img/authphp.png)
-
-Selanjutnya buka file **app/Config/Filters.php** tambahkan kode berikut :
-``` php
-'auth' => App\Filters\Auth::class
-```
-
-Selanjutnya buka file **app/Config/Routes.php** dan sesuaikan kodenya.
-
-![img](img/configroutes.png)
-
-## Percobaan Akses Menu Admin
-Buka url berikut `http://localhost:8080/admin/artikel` ketika alamat tersebut diakses maka akan dimunculkan halaman login.
-
-![img]
-
-## Fungsi Logout
-Tambahkan methode logout pada **Controller/User** seperti berikut :
-
-![img](img/controllerlogout.png)
 
