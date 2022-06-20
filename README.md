@@ -361,3 +361,12 @@ Kemudian buka kembali file `.env` kemudian hapus tanda pagar `#` pada bagian `ap
 
 ![img](img/appsession.png)
 
+## Menambahkan Auth Filter
+Selanjutnya membuat filter untuk halaman admin, buat file baru dengan nama **Auth.php** pada direktori **app/Filters**
+
+![img](img/authfilter.png)
+
+Kemudian buka file **app/Config/Filters/php** dan ubah seperti berikut :
+
+![img](img/configfilters.png)
+
