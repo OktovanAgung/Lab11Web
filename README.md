@@ -8,6 +8,7 @@ Daftar Isi :
 - [Praktikum 11 PHP Framework (Codeigniter)](#praktikum-11-php-framework-codeigniter)
 - [Praktikum 12 Framework Lanjutan (CRUD)](#praktikum-12-framework-lanjutan-crud)
 - [Praktikum 13 Framework Lanjutan (Modul Login)](#praktikum-13-framework-lanjutan-modul-login)
+- [Praktikum 14 Pagination & Pencarian](#praktikum-14-pagination--pencarian)
 ---
 
 # Praktikum 11 PHP Framework (Codeigniter)
@@ -395,3 +396,11 @@ Tambahkan methode logout pada **Controllers/User** seperti berikut :
 Untuk logout bisa langsung mengklik tombol logout pada menu admin.
 
 ![img](img/teslogout.png)
+
+---
+---
+
+# Praktikum 14 Pagination & Pencarian
+
+# Langkah - Langkah Praktikum
+
