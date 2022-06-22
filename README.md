@@ -404,3 +404,9 @@ Untuk logout bisa langsung mengklik tombol logout pada menu admin.
 
 # Langkah - Langkah Praktikum
 
+## Membuat Pagination
+Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang dari data yang banyak pada sebuah website. Fungsi pagination adalah memecah tampilan menjadi beberapa halaman tergantung banyaknya data yang akan ditampilkan pada setiap halaman.
+
+Pada CodeIgniter 4 fungsi pagination sudah tersedia pada Library sehingga cukup mudah menggunakannya
+
+Untuk membuka pagination, buka kembali **Controller/Artikel**, kemudian modifikasi kode pada methode **admin_index** seperti berikut.
