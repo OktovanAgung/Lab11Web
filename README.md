@@ -410,3 +410,13 @@ Pagination merupakan proses yang digunakan untuk membatasi tampilan yang panjang
 Pada CodeIgniter 4 fungsi pagination sudah tersedia pada Library sehingga cukup mudah menggunakannya
 
 Untuk membuka pagination, buka kembali **Controller/Artikel**, kemudian modifikasi kode pada methode **admin_index** seperti berikut.
+
+![img](img/controllerpagephp.png)
+
+Kemudian buka file **views/artikel/admin_index.php** dan tambahkan kode berikut dibawah deklarasi tabel data.
+
+![img](img/pager.png)
+
+Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
+
+![img](img/hasilpager.png)
