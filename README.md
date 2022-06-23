@@ -452,3 +452,6 @@ Dan sesuaikan tag form dengan menambahkan *encrypt type* seperti berikut :
 
 ![img](img/encrypttype.png)
 
+Ujicoba upload dengan mengakses menu tambah artikel.
+
+![img](img/tampilantambahgambar.png)
