@@ -420,3 +420,20 @@ Kemudian buka file **views/artikel/admin_index.php** dan tambahkan kode berikut 
 Selanjutnya buka kembali menu daftar artikel, tambahkan data lagi untuk melihat hasilnya.
 
 ![img](img/hasilpager.png)
+
+## Membuat Pencarian
+Pencarian data digunakan untuk memfilter data
+Untuk membuat pencarian data, buka kembali **Cotroller/Artikel**, pada method **admin_index** ubah kodenya seperti beriku.
+
+![img](img/controllerpencarian.png)
+
+Kemudian buka kembali file **views/artikel/admin_index.php** dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut :
+
+![img](img/viewpencarian.png)
+
+Dan pada link pager ubah seperti berikut.
+
+![img](img/pencarian.png)
+
+Selanjutnya uji coba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
+
