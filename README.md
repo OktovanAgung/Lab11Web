@@ -6,9 +6,14 @@
 ---
 Daftar Isi :
 - [Praktikum 11 PHP Framework (Codeigniter)](#praktikum-11-php-framework-codeigniter)
+
 - [Praktikum 12 Framework Lanjutan (CRUD)](#praktikum-12-framework-lanjutan-crud)
+
 - [Praktikum 13 Framework Lanjutan (Modul Login)](#praktikum-13-framework-lanjutan-modul-login)
+
 - [Praktikum 14 Pagination & Pencarian](#praktikum-14-pagination--pencarian)
+
+- [Hasil Akhir](#hasil-akhir)
 ---
 
 # Praktikum 11 PHP Framework (Codeigniter)
@@ -440,7 +445,7 @@ Selanjutnya uji coba dengan membuka kembali halaman admin artikel, masukkan kata
 ![img](img/tampilanpencarian.png)
 
 ## Upload Gambar
-Menambahkan fungsi unggah gambar pada bagian tambah artikel. Buka kembali **Controller/Artikel**, sesuaikan kodepada methode **add** seperti berikut :
+Menambahkan fungsi unggah gambar pada bagian tambah artikel. Buka kembali **Controller/Artikel**, sesuaikan kodepada methode **add** dan **edit** seperti berikut :
 
 ![img](img/controllergambar.png)
 
@@ -460,3 +465,15 @@ Tampilan pada menu tambah artikel :
 Tampilan pada menu edit artikel :
 ![img](img/tampilaneditgambar.png)
 
+---
+---
+
+# Hasil Akhir
+
+## Tampilan Penuh Halaman Artikel
+
+![img](img/artikelfull.png)
+
+## Tampilan Penuh Halaman Admin
+
+![img](img/adminfull.png)
