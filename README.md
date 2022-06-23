@@ -439,3 +439,16 @@ Selanjutnya uji coba dengan membuka kembali halaman admin artikel, masukkan kata
 
 ![img](img/tampilanpencarian.png)
 
+## Upload Gambar
+Menambahkan fungsi unggah gambar pada bagian tambah artikel. Buka kembali **Controller/Artikel**, sesuaikan kodepada methode **add** seperti berikut :
+
+![img](img/controllergambar.png)
+
+Kemudian pada file **views/artikel/form_add.php** tambahkan field input file seperti berikut :
+
+![img](img/addgambar.png)
+
+Dan sesuaikan tag form dengan menambahkan *encrypt type* seperti berikut :
+
+![img](img/encrypttype.png)
+
