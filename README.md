@@ -437,3 +437,5 @@ Dan pada link pager ubah seperti berikut.
 
 Selanjutnya uji coba dengan membuka kembali halaman admin artikel, masukkan kata kunci tertentu pada form pencarian.
 
+![img](img/tampilanpencarian.png)
+
