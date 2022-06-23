@@ -444,7 +444,7 @@ Menambahkan fungsi unggah gambar pada bagian tambah artikel. Buka kembali **Cont
 
 ![img](img/controllergambar.png)
 
-Kemudian pada file **views/artikel/form_add.php** tambahkan field input file seperti berikut :
+Kemudian pada file **views/artikel/form_add.php, dan form_edit.php** tambahkan field input file seperti berikut :
 
 ![img](img/addgambar.png)
 
@@ -454,4 +454,9 @@ Dan sesuaikan tag form dengan menambahkan *encrypt type* seperti berikut :
 
 Ujicoba upload dengan mengakses menu tambah artikel.
 
+Tampilan pada menu tambah artikel :
 ![img](img/tampilantambahgambar.png)
+
+Tampilan pada menu edit artikel :
+![img](img/tampilaneditgambar.png)
+
