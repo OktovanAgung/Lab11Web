@@ -207,8 +207,10 @@ box img {
 
 .entry img {
     float: left;
-    border-radius: 5px;
-    margin-right: 15px;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
 }
 
 .entry .right-img {
